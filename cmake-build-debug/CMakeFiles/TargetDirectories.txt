@@ -1,0 +1,3 @@
+C:/Users/sahbi/OneDrive/Desktop/New pro/cmake-build-debug/CMakeFiles/New_pro.dir
+C:/Users/sahbi/OneDrive/Desktop/New pro/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/sahbi/OneDrive/Desktop/New pro/cmake-build-debug/CMakeFiles/rebuild_cache.dir
