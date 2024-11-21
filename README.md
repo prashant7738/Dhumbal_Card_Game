@@ -1,4 +1,4 @@
-🎴 Dhumbaal Card Game
+🎴 Dhumbaal Card Game<br>
 Welcome to the Dhumbaal Card Game! This is a digital version of the traditional card game implemented in C++ using SFML (Simple and Fast Multimedia Library).
 ✨ Features
 •	🎮 Interactive Gameplay: Play against a bot in turn-based mode.
