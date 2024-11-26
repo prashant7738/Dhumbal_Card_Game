@@ -33,7 +33,7 @@ Steps:<br>
    ./dhumbaal<br><br>
 🎮 Controls<br>
 •	🖱️ Mouse Left Click: Select or deselect cards from your hand.<br>
-•	⌨️ Keyboard: Use specific keys for menu navigation (if applicable).<br>
+•	⌨️ Keyboard: Use specific keys for menu navigation.<br>
 📂 Project Structure<br>
 /<br>
 ├── assets/               # Contains images and resources for the game<br>
