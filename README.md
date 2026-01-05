@@ -1,52 +1,14 @@
-🎴 Dhumbaal Card Game<br>
-Welcome to the Dhumbaal Card Game! This is a digital version of the traditional card game implemented in C++ using SFML (Simple and Fast Multimedia Library).<br><br>
-✨ Features<br>
-•	🎮 Interactive Gameplay: Play against a bot in turn-based mode.<br>
-•	🖱️ Dynamic Card Selection: Select cards with the mouse to create valid sets.<br>
-•	📜 Game Rules Compliance: Ensures that only valid card combinations are accepted.<br>
-•	🖼️ Smooth Visuals: Clean and interactive graphics rendered using SFML.<br>
-•	🤖 AI Opponent: A bot that makes logical moves based on its cards.<br><br>
-📜 Game Rules<br>
-The objective of the game is to form valid sets of cards and strategically manage your hand to win.<br>
-✅ Valid Card Sets:<br>
-1. Same Value:<br>
-   - All selected cards must have the same value (e.g., 3 of ♥️, 3 of ♠️, 3 of ♦️).<br>
-2. Consecutive Sequence:<br>
-   - Cards must form a consecutive sequence and have the same suit (e.g., 5, 6, 7 of ♠️).<br>
-🔄 Gameplay Flow:<br>
-1. Players take turns.<br>
-2. On their turn, a player can:<br>
-   - 📥 Pick a card from the deck or thrown card pile.<br>
-   - 🃏 Select and throw a valid set of cards into the thrown deck.<br>
-3. The bot automatically plays after the player’s turn.<br>
-🛠️ Installation<br><br>
-Prerequisites:<br>
-•	🖥️ C++ Compiler: Ensure your compiler supports C++17 or higher.<br>
-•	📦 SFML Library: Download and install SFML (version 2.5.1 or later).<br><br>
-Steps:<br>
-1.	Clone this repository:<br>
-   git clone(https://github.com/bikesh19/Dhumbaal-game)<br>
-   cd dhumbaal-card-game<br>
-2.	Compile the code:<br>
-   g++ -o dhumbaal main.cpp -lsfml-graphics -lsfml-window -lsfml-system<br>
-3.	Run the executable:<br>
-   ./dhumbaal<br><br>
-🎮 Controls<br>
-•	🖱️ Mouse Left Click: Select or deselect cards from your hand.<br>
-•	⌨️ Keyboard: Use specific keys for menu navigation.<br>
-📂 Project Structure<br>
-/<br>
-├── assets/               # Contains images and resources for the game<br>
-├── src/                  # Source code files<br>
-│   ├── main.cpp          # Main game logic<br>
-│   ├── game.cpp          # Core game mechanics<br>
-│   ├── bot.cpp           # Bot logic implementation<br>
-│   └── player.cpp        # Player actions and interactions<br>
-├── include/              # Header files<br>
-└── README.md             # This file<br><br>
-
-🚀 Future Improvements<br>
-•	🌐 Add multiplayer support.<br>
-•	🧠 Enhance AI strategy for the bot.<br>
-•	🎨 Include animations for smoother gameplay experience.<br>
-•	📡 Develop an online mode.<br>
+As a GitHub expert, I have upgraded your README to reflect the project's structure, the specific mechanics of Dhumbal (also known as Jhyap), and the technical details of your C++/SFML implementation.🎴 Dhumbaal Card GameWelcome to the Dhumbaal Card Game! This is a high-performance digital version of the popular Nepali card game, featuring interactive graphics rendered using SFML. Developed as a 2nd-semester project, it demonstrates Object-Oriented Programming (OOP) principles and basic AI implementation.🤖 FeaturesIntelligent AI Opponent: A built-in bot that analyzes its hand and makes logical moves (discards high values/sets) to minimize its score.Interactive Graphics: Smooth card selection and UI interactions powered by SFML.Dynamic Gameplay: Real-time hand management and valid set detection.📜 Game RulesThe objective is to minimize the total point value of the cards in your hand. If your total is 10 points or less, you can call for a "Show" (Jhyap).✅ Valid Card Sets (Meld)To reduce your points faster, you can throw multiple cards at once if they form:Same Value (Set): Cards with the same rank (e.g., $3\heartsuit, 3\spadesuit, 3\diamondsuit$).Consecutive Sequence (Run): Three or more cards of the same suit in numerical order (e.g., $5\spadesuit, 6\spadesuit, 7\spadesuit$).🔄 Gameplay FlowDiscard: On your turn, select a valid set or a single high-value card and throw it into the pile.Pick: Draw a new card from the Face-down Deck or the Thrown Card Pile.Bot Turn: The AI automatically calculates the best move after your turn ends.Victory: If you call "Show" and have the lowest points, you win. If another player has fewer or equal points, you are "Busted" (Penalty).🛠️ Installation & SetupPrerequisites🖥️ C++ Compiler: Supports C++17 or higher.📦 SFML Library: Version 2.5.1 or later.StepsClone the repository:Bashgit clone https://github.com/bikesh19/Dhumbaal-game
+cd Dhumbaal-game
+Compile the code:Bashg++ -o dhumbaal src/*.cpp -Iinclude -lsfml-graphics -lsfml-window -lsfml-system
+Run the game:Bash./dhumbaal
+🎮 Controls🖱️ Mouse Left Click: Select or deselect cards from your hand.⌨️ Keyboard: Use menu navigation keys (Enter/Esc) to interact with the game state.📂 Project StructurePlaintext/
+├── assets/           # Textures, Fonts, and Sprites
+├── include/          # Header files (.hpp/.h)
+├── src/              # Source code implementation
+│   ├── main.cpp      # Entry point
+│   ├── game.cpp      # Game loop & State management
+│   ├── bot.cpp       # AI logic & Decision making
+│   └── player.cpp    # Hand management & Input handling
+└── README.md
+🚀 Future Improvements🌐 Multiplayer Support: LAN or Online socket-based gameplay.🧠 Advanced AI: Implement probability-based tracking of discarded cards.🎨 Visual Juice: Add card flip animations and particle effects.📡 Global Leaderboard: Track wins and scores online.
